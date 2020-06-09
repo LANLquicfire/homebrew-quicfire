@@ -5,6 +5,7 @@ class Quicfire < Formula
   sha256 "724655736374605e5057c1576af5a5d9cbab2cf2e9f426b301b536c0e03ce664"
 
   depends_on "python"
+  depends_on "gcc"
   
   resource "numpy" do
     url "https://files.pythonhosted.org/packages/84/1e/ff467ac56bfeaea51d4a2e72d315c1fe440b20192fea7e460f0f248acac8/numpy-1.18.2.zip"
