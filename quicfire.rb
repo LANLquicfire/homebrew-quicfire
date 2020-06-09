@@ -1,10 +1,11 @@
 class Quicfire < Formula
   desc "Installs quicfire via homebrew and manages all dependencies"
   homepage "https://github.com/LANLquicfire/quicfire"
-  url "https://github.com/LANLquicfire/quicfire/blob/master/QUIC_WildFire.zip?raw=true", :using => :curl
+  url "https://github.com/LANLquicfire/quicfire/archive/v1.0.0.tar.gz"
+  sha256 "724655736374605e5057c1576af5a5d9cbab2cf2e9f426b301b536c0e03ce664"
 
   depends_on "python"
-  depends_on "curl"
+  depends_on "GCC"
   
   
   resource "numpy" do
