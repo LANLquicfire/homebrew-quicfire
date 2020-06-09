@@ -4,6 +4,8 @@ class quicfire < Formula
   depends_on "python"
   depends_on "curl"
   
+  url "https://github.com/LANLquicfire/quicfire/blob/master/QUIC_WildFire.zip?raw=true", :using => :curl
+  
   resource "numpy" do
     url "https://files.pythonhosted.org/packages/84/1e/ff467ac56bfeaea51d4a2e72d315c1fe440b20192fea7e460f0f248acac8/numpy-1.18.2.zip"
     sha256 "e7894793e6e8540dbeac77c87b489e331947813511108ae097f1715c018b8f3d"
