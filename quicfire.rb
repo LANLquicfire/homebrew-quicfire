@@ -1,4 +1,4 @@
-class quicfire < Formula
+class QuicFire < Formula
   desc "Installs quicfire via homebrew and manages all dependencies"
   
   depends_on "python"
